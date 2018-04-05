@@ -1,0 +1,16 @@
+{
+  "NODE_ENV": "production",
+  "DB_MONGODB": "",
+  "ACTIVE_CONNECTOR": "sia",
+  "CONNECTOR_SIA_HOST": "",
+  "CONNECTOR_SIA_USERNAME": "",
+  "CONNECTOR_SIA_PASSWORD": "",
+  "CONNECTOR_FILES_PAGE_SIZE": 1000,
+  "FILE_BASEPATH": "[BASE_DIR_NAME]/files",
+  "FILE_SCAN": "/scanned",
+  "FILE_RESULTDIR": "/result",
+  "FILE_ERROR": "/error",
+  "FILE_EQUALIZEDDIR": "/equalized",
+  "IMAGE_MAGICK_PATH": "[BASE_DIR_NAME]/bin/",
+  "KEEP_LOG_LEVEL": "warn"
+}

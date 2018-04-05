@@ -1,0 +1,5 @@
+{
+  "NODE_ENV": "production",
+  "OMR_CONFIG_DIR": "[BASE_DIR_NAME]/config",
+  "NSSM_BIN_PATH": "[BASE_DIR_NAME]/bin/nssm.exe"
+}

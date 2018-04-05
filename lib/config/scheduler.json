@@ -1,0 +1,18 @@
+{
+  "NODE_ENV": "production",
+  "DB_MONGODB": "",
+  "JOB_LOCK_LIFETIME": 2000,
+  "KEEP_LOG_LEVEL": "warn",
+  "JOB_FILE_ORGANIZER_APP": "[BASE_DIR_NAME]/data/fileorganizer/App.js",
+  "JOB_FILE_ORGANIZER_CONFIG": "[BASE_DIR_NAME]/config/fileorganizer.json",
+  "JOB_FILE_ORGANIZER_TIME": "* * * * *",
+  "JOB_PRE_PROCESSOR_APP": "[BASE_DIR_NAME]/data/preprocessor/App.js",
+  "JOB_PRE_PROCESSOR_CONFIG": "[BASE_DIR_NAME]/config/preprocessor.json",
+  "JOB_PRE_PROCESSOR_TIME": "* * * * *",
+  "JOB_PROCESSOR_APP": "[BASE_DIR_NAME]/data/processor/App.js",
+  "JOB_PROCESSOR_CONFIG": "[BASE_DIR_NAME]/config/processor.json",
+  "JOB_PROCESSOR_TIME": "* * * * *",
+  "JOB_RESULT_SYNC_APP": "[BASE_DIR_NAME]/data/resultsync/App.js",
+  "JOB_RESULT_SYNC_CONFIG": "[BASE_DIR_NAME]/config/resultsync.json",
+  "JOB_RESULT_SYNC_TIME": "* * * * *"
+}

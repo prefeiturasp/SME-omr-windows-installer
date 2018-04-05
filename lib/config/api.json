@@ -1,0 +1,12 @@
+{
+  "NODE_ENV": "production",
+  "DB_MONGODB": "",
+  "APP_PORT": 3001,
+  "SEND_ERROR_ON_RESPONSE": true,
+  "KEEP_LOG_LEVEL": "warn",
+  "FILE_BASEPATH": "[BASE_DIR_NAME]/files",
+  "FILE_SCAN": "/scanned",
+  "FILE_ORIGINALDIR": "/original",
+  "FILE_EQUALIZEDDIR": "/equalized",
+  "FILE_RESULTDIR": "/result"
+}

@@ -1,0 +1,1 @@
+"[BASE_DIR_NAME]/bin/node.exe" "[BASE_DIR_NAME]/data/api/App.js" --config=[BASE_DIR_NAME]/config/api.json

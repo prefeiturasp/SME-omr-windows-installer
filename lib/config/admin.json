@@ -1,0 +1,18 @@
+{
+  "NODE_ENV": "production",
+  "DB_MONGODB": "",
+  "APP_PORT": 3000,
+  "AUTHENTICATION_TYPE": 1,
+  "CORESSO_ADMIN_GROUP_ID": "",
+  "MSSQL_SERVER": "",
+  "MSSQL_CORE_USERNAME": "",
+  "MSSQL_CORE_PASSWORD": "",
+  "MSSQL_CORE_DATABASE": "",
+  "SAML_IDP_DOMAIN": "",
+  "KEEP_LOG_LEVEL": "warn",
+  "FILE_BASEPATH": "[BASE_DIR_NAME]/files",
+  "FILE_SCAN": "/scanned",
+  "FILE_ORIGINALDIR": "/original",
+  "FILE_EQUALIZEDDIR": "/equalized",
+  "FILE_RESULTDIR": "/result"
+}

@@ -1,0 +1,177 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'bower',
+1 verbose cli   '-g' ]
+2 info using npm@3.10.8
+3 info using node@v6.9.1
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readGlobalPackageData
+7 silly fetchPackageMetaData bower
+8 silly fetchNamedPackageData bower
+9 silly mapToRegistry name bower
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry http://npm.mstech.com.br/
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'bower',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   escapedName: 'bower',
+12 silly mapToRegistry   name: 'bower',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag' }
+13 silly mapToRegistry uri http://npm.mstech.com.br/bower
+14 verbose request uri http://npm.mstech.com.br/bower
+15 verbose request no auth needed
+16 info attempt registry request try #1 at 20:07:05
+17 verbose request using bearer token for auth
+18 verbose request id e6a19e6c834e7a4e
+19 verbose etag "197cd3d92bf3ecb48105fb654251cab8"
+20 http request GET http://npm.mstech.com.br/bower
+21 http 200 http://npm.mstech.com.br/bower
+22 verbose headers { 'x-powered-by': 'Sinopia/1.4.0',
+22 verbose headers   'content-type': 'application/json; charset=utf-8',
+22 verbose headers   etag: '"b17bcf7cde080a5ffbfa02f8f1eb08ca"',
+22 verbose headers   vary: 'Accept-Encoding',
+22 verbose headers   'content-encoding': 'gzip',
+22 verbose headers   'x-status-cat': 'http://flic.kr/p/aVuVsF',
+22 verbose headers   date: 'Thu, 22 Dec 2016 22:07:05 GMT',
+22 verbose headers   connection: 'keep-alive',
+22 verbose headers   'transfer-encoding': 'chunked' }
+23 silly get cb [ 200,
+23 silly get   { 'x-powered-by': 'Sinopia/1.4.0',
+23 silly get     'content-type': 'application/json; charset=utf-8',
+23 silly get     etag: '"b17bcf7cde080a5ffbfa02f8f1eb08ca"',
+23 silly get     vary: 'Accept-Encoding',
+23 silly get     'content-encoding': 'gzip',
+23 silly get     'x-status-cat': 'http://flic.kr/p/aVuVsF',
+23 silly get     date: 'Thu, 22 Dec 2016 22:07:05 GMT',
+23 silly get     connection: 'keep-alive',
+23 silly get     'transfer-encoding': 'chunked' } ]
+24 verbose get saving bower to C:\Users\andre.machado\AppData\Roaming\npm-cache\npm.mstech.com.br\bower\.cache.json
+25 verbose correctMkdir C:\Users\andre.machado\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+26 silly install normalizeTree
+27 silly loadCurrentTree Finishing
+28 silly loadIdealTree Starting
+29 silly install loadIdealTree
+30 silly cloneCurrentTree Starting
+31 silly install cloneCurrentTreeToIdealTree
+32 silly cloneCurrentTree Finishing
+33 silly loadShrinkwrap Starting
+34 silly install loadShrinkwrap
+35 silly loadShrinkwrap Finishing
+36 silly loadAllDepsIntoIdealTree Starting
+37 silly install loadAllDepsIntoIdealTree
+38 silly resolveWithNewModule bower@1.8.0 checking installable status
+39 silly cache add args [ 'bower', null ]
+40 verbose cache add spec bower
+41 silly cache add parsed spec Result {
+41 silly cache add   raw: 'bower',
+41 silly cache add   scope: null,
+41 silly cache add   escapedName: 'bower',
+41 silly cache add   name: 'bower',
+41 silly cache add   rawSpec: '',
+41 silly cache add   spec: 'latest',
+41 silly cache add   type: 'tag' }
+42 silly addNamed bower@latest
+43 verbose addNamed "latest" is being treated as a dist-tag for bower
+44 info addNameTag [ 'bower', 'latest' ]
+45 silly mapToRegistry name bower
+46 silly mapToRegistry using default registry
+47 silly mapToRegistry registry http://npm.mstech.com.br/
+48 silly mapToRegistry data Result {
+48 silly mapToRegistry   raw: 'bower',
+48 silly mapToRegistry   scope: null,
+48 silly mapToRegistry   escapedName: 'bower',
+48 silly mapToRegistry   name: 'bower',
+48 silly mapToRegistry   rawSpec: '',
+48 silly mapToRegistry   spec: 'latest',
+48 silly mapToRegistry   type: 'tag' }
+49 silly mapToRegistry uri http://npm.mstech.com.br/bower
+50 verbose addNameTag registry:http://npm.mstech.com.br/bower not in flight; fetching
+51 verbose get http://npm.mstech.com.br/bower not expired, no request
+52 silly addNameTag next cb for bower with tag latest
+53 silly addNamed bower@1.8.0
+54 verbose addNamed "1.8.0" is a plain semver version for bower
+55 silly mapToRegistry name bower
+56 silly mapToRegistry using default registry
+57 silly mapToRegistry registry http://npm.mstech.com.br/
+58 silly mapToRegistry data Result {
+58 silly mapToRegistry   raw: 'bower',
+58 silly mapToRegistry   scope: null,
+58 silly mapToRegistry   escapedName: 'bower',
+58 silly mapToRegistry   name: 'bower',
+58 silly mapToRegistry   rawSpec: '',
+58 silly mapToRegistry   spec: 'latest',
+58 silly mapToRegistry   type: 'tag' }
+59 silly mapToRegistry uri http://npm.mstech.com.br/bower
+60 verbose addRemoteTarball http://npm.mstech.com.br/bower/-/bower-1.8.0.tgz not in flight; adding
+61 verbose addRemoteTarball [ 'http://npm.mstech.com.br/bower/-/bower-1.8.0.tgz',
+61 verbose addRemoteTarball   '55dbebef0ad9155382d9e9d3e497c1372345b44a' ]
+62 info retry fetch attempt 1 at 20:07:06
+63 info attempt registry request try #1 at 20:07:06
+64 http fetch GET http://npm.mstech.com.br/bower/-/bower-1.8.0.tgz
+65 verbose request using bearer token for auth
+66 http fetch 200 http://npm.mstech.com.br/bower/-/bower-1.8.0.tgz
+67 silly fetchAndShaCheck shasum 55dbebef0ad9155382d9e9d3e497c1372345b44a
+68 verbose addTmpTarball C:\Users\ANDRE~1.MAC\AppData\Local\Temp\npm-6308-c1791b41\npm.mstech.com.br\bower\-\bower-1.8.0.tgz not in flight; adding
+69 verbose addTmpTarball already have metadata; skipping unpack for bower@1.8.0
+70 verbose correctMkdir C:\Users\andre.machado\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+71 silly cache afterAdd bower@1.8.0
+72 verbose afterAdd C:\Users\andre.machado\AppData\Roaming\npm-cache\bower\1.8.0\package\package.json not in flight; writing
+73 verbose correctMkdir C:\Users\andre.machado\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+74 verbose afterAdd C:\Users\andre.machado\AppData\Roaming\npm-cache\bower\1.8.0\package\package.json written
+75 silly loadAllDepsIntoIdealTree Finishing
+76 silly loadIdealTree Finishing
+77 silly currentTree nodejs
+78 silly idealTree nodejs
+78 silly idealTree `-- bower@1.8.0
+79 silly generateActionsToTake Starting
+80 silly install generateActionsToTake
+81 silly generateActionsToTake Finishing
+82 silly diffTrees action count 1
+83 silly diffTrees add bower@1.8.0
+84 silly decomposeActions action count 8
+85 silly decomposeActions fetch bower@1.8.0
+86 silly decomposeActions extract bower@1.8.0
+87 silly decomposeActions test bower@1.8.0
+88 silly decomposeActions preinstall bower@1.8.0
+89 silly decomposeActions build bower@1.8.0
+90 silly decomposeActions install bower@1.8.0
+91 silly decomposeActions postinstall bower@1.8.0
+92 silly decomposeActions finalize bower@1.8.0
+93 silly runTopLevelLifecycles Starting
+94 silly executeActions Starting
+95 silly install executeActions
+96 silly doSerial global-install 0
+97 silly doParallel fetch 1
+98 verbose correctMkdir C:\Users\andre.machado\AppData\Roaming\npm-cache\_locks correctMkdir not in flight; initializing
+99 verbose lock using C:\Users\andre.machado\AppData\Roaming\npm-cache\_locks\staging-dfd8fbf9c1feea0f.lock for C:\Program Files\nodejs\node_modules\.staging
+100 verbose unlock done using C:\Users\andre.machado\AppData\Roaming\npm-cache\_locks\staging-dfd8fbf9c1feea0f.lock for C:\Program Files\nodejs\node_modules\.staging
+101 silly rollbackFailedOptional Starting
+102 silly rollbackFailedOptional Finishing
+103 silly runTopLevelLifecycles Finishing
+104 silly install printInstalled
+105 verbose stack Error: EPERM: operation not permitted, mkdir 'C:\Program Files\nodejs\node_modules\.staging'
+105 verbose stack     at Error (native)
+106 verbose cwd C:\Projetos\mstech-omr\windows-installer
+107 error Windows_NT 6.3.9600
+108 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "bower" "-g"
+109 error node v6.9.1
+110 error npm  v3.10.8
+111 error path C:\Program Files\nodejs\node_modules\.staging
+112 error code EPERM
+113 error errno -4048
+114 error syscall mkdir
+115 error Error: EPERM: operation not permitted, mkdir 'C:\Program Files\nodejs\node_modules\.staging'
+115 error     at Error (native)
+115 error  { Error: EPERM: operation not permitted, mkdir 'C:\Program Files\nodejs\node_modules\.staging'
+115 error     at Error (native)
+115 error   errno: -4048,
+115 error   code: 'EPERM',
+115 error   syscall: 'mkdir',
+115 error   path: 'C:\\Program Files\\nodejs\\node_modules\\.staging' }
+116 error Please try running this command again as root/Administrator.
+117 verbose exit [ -4048, true ]

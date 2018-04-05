@@ -1,0 +1,28 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "canvas", "canvas.vcxproj", "{850E56A6-F263-0809-A47C-621B062D52C8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "canvas-postbuild", "canvas-postbuild.vcxproj", "{1FCCE02C-9594-A8E4-D293-19F0C97B6223}"
+	ProjectSection(ProjectDependencies) = postProject
+		{850E56A6-F263-0809-A47C-621B062D52C8} = {850E56A6-F263-0809-A47C-621B062D52C8}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1FCCE02C-9594-A8E4-D293-19F0C97B6223}.Debug|x64.ActiveCfg = Debug|x64
+		{1FCCE02C-9594-A8E4-D293-19F0C97B6223}.Debug|x64.Build.0 = Debug|x64
+		{1FCCE02C-9594-A8E4-D293-19F0C97B6223}.Release|x64.ActiveCfg = Release|x64
+		{1FCCE02C-9594-A8E4-D293-19F0C97B6223}.Release|x64.Build.0 = Release|x64
+		{850E56A6-F263-0809-A47C-621B062D52C8}.Debug|x64.ActiveCfg = Debug|x64
+		{850E56A6-F263-0809-A47C-621B062D52C8}.Debug|x64.Build.0 = Debug|x64
+		{850E56A6-F263-0809-A47C-621B062D52C8}.Release|x64.ActiveCfg = Release|x64
+		{850E56A6-F263-0809-A47C-621B062D52C8}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

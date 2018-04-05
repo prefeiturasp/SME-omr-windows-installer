@@ -1,0 +1,1 @@
+"[BASE_DIR_NAME]/data/configuration/node_modules/electron-prebuilt/dist/electron.exe" "[BASE_DIR_NAME]/data/configuration" --config=[BASE_DIR_NAME]/config/configuration.json
